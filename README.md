@@ -1,6 +1,12 @@
 # OneTechk — Générateur de code NCK (TECHNO TR118)
 
+[![YouTube — OneTechk](https://img.shields.io/badge/YouTube-S'abonner-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@OneTechk)
+[![Démo](https://img.shields.io/badge/D%C3%A9mo-onetechk.vercel.app-38e2b0)](https://onetechk.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs&logoColor=white)](https://nextjs.org)
+
 **Démo en ligne : <https://onetechk.vercel.app>**
+
+> 📺 **Un besoin, une question ? Tous les tutos sont sur YouTube : [@OneTechk](https://www.youtube.com/@OneTechk) — abonne-toi !**
 
 Portage **Next.js** du clone du générateur de code de déblocage IMEI.
 L'application calcule les deux codes **NCK** du modem **TECHNO TR118** (Orange AirBox)
