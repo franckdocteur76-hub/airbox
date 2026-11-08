@@ -51,9 +51,8 @@ export default function Home() {
         </span>
         <h1>Générateur de code de déblocage IMEI</h1>
         <p className="sub">
-          Calcul <strong>100 % local</strong> des deux codes <strong>NCK</strong> du modem{" "}
-          <strong>TECHNO TR118</strong> (Orange AirBox), à partir de l&apos;IMEI. Aucune donnée
-          n&apos;est envoyée : tout se passe dans votre navigateur.
+          Débloque ton modem <strong>TECHNO TR118</strong> (Orange AirBox) facilement, à partir de
+          l&apos;IMEI.
         </p>
       </header>
 
