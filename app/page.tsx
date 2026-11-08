@@ -89,13 +89,48 @@ export default function Home() {
             ))}
           </ol>
         </div>
+
+        <aside className="cta">
+          <span className="yt" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21.6 7.2a2.5 2.5 0 0 0-1.76-1.77C18.25 5 12 5 12 5s-6.25 0-7.84.43A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.76 1.77C5.75 19 12 19 12 19s6.25 0 7.84-.43a2.5 2.5 0 0 0 1.76-1.77A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8z" />
+              <path d="M10 15.5v-7l6 3.5-6 3.5z" fill="#0b1222" />
+            </svg>
+          </span>
+
+          <div className="grow">
+            <span className="kicker">Besoin d&apos;aide&nbsp;?</span>
+            <h2>La chaîne OneTechk est là pour ça</h2>
+            <p>
+              Déblocage, configuration, dépannage : les tutos sont en vidéo. Pour tout besoin, la
+              chaîne YouTube OneTechk est là — abonne-toi pour ne rien rater.
+            </p>
+          </div>
+
+          <a
+            className="cta-btn"
+            href="https://www.youtube.com/@OneTechk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M21.6 7.2a2.5 2.5 0 0 0-1.76-1.77C18.25 5 12 5 12 5s-6.25 0-7.84.43A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.76 1.77C5.75 19 12 19 12 19s6.25 0 7.84-.43a2.5 2.5 0 0 0 1.76-1.77A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8z" />
+              <path d="M10 15.5v-7l6 3.5-6 3.5z" fill="#d81f26" />
+            </svg>
+            S&apos;abonner
+          </a>
+        </aside>
       </main>
 
       <footer>
-        Application créée par <strong style={{ color: "#a9c0e6" }}>Bogims Unlock</strong> pour
-        débloquer le TECHNO TR118.
+        Application créée par <strong style={{ color: "#a9c0e6" }}>OneTechk</strong> pour débloquer le
+        TECHNO TR118.
         <br />
-        Clone autonome — fonctionne hors ligne, sans serveur.
+        © {new Date().getFullYear()} OneTechk — tutoriels et dépannage sur{" "}
+        <a href="https://www.youtube.com/@OneTechk" target="_blank" rel="noopener noreferrer">
+          YouTube
+        </a>
+        .
       </footer>
     </div>
   );

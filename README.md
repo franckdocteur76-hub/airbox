@@ -1,6 +1,6 @@
-# Bogims Unlock — Générateur de code NCK (TECHNO TR118)
+# OneTechk — Générateur de code NCK (TECHNO TR118)
 
-**Démo en ligne : <https://bogims-next.vercel.app>**
+**Démo en ligne : <https://onetechk.vercel.app>**
 
 Portage **Next.js** du clone du générateur de code de déblocage IMEI.
 L'application calcule les deux codes **NCK** du modem **TECHNO TR118** (Orange AirBox)
@@ -104,4 +104,5 @@ Implémentation : `lib/imei.ts` — vérifiée sur **94 échantillons** réels d
 - contrôle Luhn **non bloquant** (signalé, le calcul reste identique) ;
 - affichage séquencé : code 1, puis code 2 après ~420 ms ;
 - boutons « Copier » avec repli `execCommand` hors contexte sécurisé ;
+- **CTA d'abonnement** à la chaîne YouTube [@OneTechk](https://www.youtube.com/@OneTechk) en bas de page ;
 - responsive (grille de procédure en 1 colonne < 700 px), `prefers-reduced-motion` respecté.

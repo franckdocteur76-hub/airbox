@@ -187,6 +187,52 @@
     .proc{grid-template-columns:1fr}
   }
 
+  /* ---------- CTA YouTube ---------- */
+  .cta{
+    position:relative;overflow:hidden;
+    display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+    margin-top:22px;padding:18px 20px;border-radius:16px;
+    background:linear-gradient(135deg,rgba(255,60,60,.11),rgba(255,60,60,.035) 55%,rgba(74,163,255,.05));
+    border:1px solid rgba(255,90,90,.28);
+  }
+  .cta::after{
+    content:"";position:absolute;inset:-45% -12% auto auto;width:300px;height:300px;pointer-events:none;
+    background:radial-gradient(circle,rgba(255,60,60,.18),transparent 65%);
+  }
+  .cta .yt{
+    position:relative;z-index:1;flex:0 0 auto;width:46px;height:46px;border-radius:13px;
+    display:grid;place-items:center;color:#fff;
+    background:linear-gradient(135deg,#ff4438,#c2181b);
+    box-shadow:0 10px 24px -10px rgba(255,59,48,.95);
+  }
+  .cta .yt svg{width:24px;height:24px}
+  .cta .grow{position:relative;z-index:1;flex:1 1 250px;min-width:0}
+  .cta .kicker{
+    display:block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    font-weight:700;color:#ff9d97;margin-bottom:4px;
+  }
+  .cta h2{margin:0 0 4px;font-size:15.5px;letter-spacing:-.01em;color:#fff}
+  .cta p{margin:0;font-size:12.8px;line-height:1.55;color:#b9c6e0}
+  .cta-btn{
+    position:relative;z-index:1;flex:0 0 auto;
+    display:inline-flex;align-items:center;gap:9px;
+    padding:12px 18px;border-radius:11px;text-decoration:none;
+    font-size:13.5px;font-weight:750;letter-spacing:.01em;color:#fff;
+    background:linear-gradient(135deg,#ff4438,#d81f26);
+    box-shadow:0 12px 26px -12px rgba(255,59,48,.9);
+    transition:filter .18s, transform .12s;
+  }
+  .cta-btn:hover{filter:brightness(1.08)}
+  .cta-btn:active{transform:translateY(1px)}
+  .cta-btn svg{width:18px;height:18px}
+  @media (max-width:620px){
+    .cta{padding:16px}
+    .cta-btn{width:100%;justify-content:center}
+  }
+
+  footer a{color:#9fc4ff;text-decoration:none;border-bottom:1px solid rgba(159,196,255,.3)}
+  footer a:hover{color:#cfe0ff;border-bottom-color:rgba(207,224,255,.6)}
+
   footer{margin-top:32px;text-align:center;font-size:12.5px;color:#6f80a0;line-height:1.9}
   .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
