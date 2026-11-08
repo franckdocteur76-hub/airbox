@@ -1,6 +1,6 @@
 # OneTechk — Générateur de code NCK (TECHNO TR118)
 
-[![YouTube — OneTechk](https://img.shields.io/badge/YouTube-S'abonner-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@OneTechk)
+[![YouTube — OneTechk](https://img.shields.io/badge/YouTube-S%27abonner-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@OneTechk)
 [![Démo](https://img.shields.io/badge/D%C3%A9mo-onetechk.vercel.app-38e2b0)](https://onetechk.vercel.app)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs&logoColor=white)](https://nextjs.org)
 
