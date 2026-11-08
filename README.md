@@ -62,7 +62,8 @@ npm run desktop         # package Electron  -> desktop/dist/OneTechk-Unlock-1.0.
   dans une fenêtre native — le rendu est exactement celui du site.
 - Menu : recharger (F5), zoom, chaîne YouTube, site web, à propos.
 - Aucun accès réseau externe : le fichier peut être copié sur une clé USB et lancé par double-clic.
-- Téléchargement : [releases GitHub](https://github.com/franckdocteur76-hub/airbox/releases).
+- **Téléchargement direct** : [OneTechk-Unlock-1.0.0-portable.exe](https://github.com/franckdocteur76-hub/airbox/releases/download/desktop-v1.0.0/OneTechk-Unlock-1.0.0-portable.exe)
+  (toutes les versions : [releases](https://github.com/franckdocteur76-hub/airbox/releases)).
 
 ## Arborescence
 
