@@ -48,6 +48,22 @@ npm test
 
 Lien direct pré-rempli : `http://localhost:3000/?imei=123456789012345`.
 
+## Version desktop portable (Windows)
+
+Un **exécutable unique** (`.exe`, ~77 Mo) qui embarque l'application complète et fonctionne
+hors ligne, sans installation ni navigateur.
+
+```bash
+npm run build:desktop   # export statique Next.js -> desktop/renderer
+npm run desktop         # package Electron  -> desktop/dist/OneTechk-Unlock-1.0.0-portable.exe
+```
+
+- Le binaire démarre un serveur local sur `127.0.0.1` (port aléatoire) et affiche l'interface
+  dans une fenêtre native — le rendu est exactement celui du site.
+- Menu : recharger (F5), zoom, chaîne YouTube, site web, à propos.
+- Aucun accès réseau externe : le fichier peut être copié sur une clé USB et lancé par double-clic.
+- Téléchargement : [releases GitHub](https://github.com/franckdocteur76-hub/airbox/releases).
+
 ## Arborescence
 
 ```
@@ -62,6 +78,13 @@ lib/
 public/
   assets/modem.png  visuel du modem (détouré)
   favicon.svg
+desktop/
+  main.js           fenêtre Electron + menu
+  server.js         mini serveur HTTP local (sert le build embarqué)
+  build/icon.png    icône de l'application
+scripts/
+  build-desktop.mjs export statique -> desktop/renderer
+  make-icon.mjs     génération de l'icône (nécessite sharp)
 tests/
   imei.test.mjs
 ```

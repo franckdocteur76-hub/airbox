@@ -6,4 +6,9 @@ next-env.d.ts
 .env*
 .DS_Store
 
+# desktop (Electron)
+desktop/node_modules/
+desktop/dist/
+desktop/renderer/
+
 .vercel

@@ -1,0 +1,39 @@
+{
+  "name": "onetech-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Version desktop portable du generateur de code NCK OneTechk (TECHNO TR118)",
+  "author": "OneTechk",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.onetechk.unlock",
+    "productName": "OneTechk Unlock",
+    "copyright": "OneTechk",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "main.js",
+      "server.js",
+      "renderer/**/*",
+      "build/icon.png"
+    ],
+    "win": {
+      "target": ["portable"],
+      "icon": "build/icon.png"
+    },
+    "portable": {
+      "artifactName": "OneTechk-Unlock-${version}-portable.exe"
+    },
+    "compression": "maximum"
+  },
+  "devDependencies": {
+    "electron": "33.4.11",
+    "electron-builder": "^26.18.0"
+  }
+}
